@@ -1,5 +1,0 @@
-RUN	simulations.test1	test1	1620831570052	 	3.5.1
-USER	oneTimeOrder	START	1620831571770
-REQUEST		Home Page	1620831571796	1620831572705	OK	 
-ERROR	login: Failed to build request: No attribute named 'jwtfunction' is defined 	1620831575715
-USER	oneTimeOrder	END	1620831575721

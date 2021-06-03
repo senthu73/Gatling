@@ -1,5 +1,0 @@
-RUN	simulations.test1	test1	1620843003502	 	3.5.1
-USER	oneTimeOrder	START	1620843005666
-REQUEST		Home Page	1620843005713	1620843006650	OK	 
-ERROR	login: Failed to build request: No attribute named 'token3' is defined 	1620843009133
-USER	oneTimeOrder	END	1620843009143

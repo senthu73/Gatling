@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\gatling_selvi_performance\src\test\scala\doTerraSimulations\oneTimePackage\CreateJWTtokenRequest.scala">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\gatling_selvi_performance\src\test\scala\simulations\login_Obj.scala">
           <value>
             <Attribute>
@@ -18,6 +25,34 @@
           </value>
         </entry>
         <entry key="\gatling_selvi_performance\src\test\scala\simulations\test1.scala">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\gatling_selvi_performance\src\test\scala\simulations\test2.scala">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\gatling_selvi_performance\src\test\scala\simulations\test3.scala">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\gatling_selvi_performance\src\test\scala\simulations\test4.scala">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\gatling_selvi_performance\src\test\scala\simulations\test5.scala">
           <value>
             <Attribute>
               <option name="separator" value="," />
