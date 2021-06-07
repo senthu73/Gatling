@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\gatling_selvi_performance\src\test\scala\Engine.scala">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\gatling_selvi_performance\src\test\scala\doTerraSimulations\oneTimePackage\CreateJWTtokenRequest.scala">
           <value>
             <Attribute>
