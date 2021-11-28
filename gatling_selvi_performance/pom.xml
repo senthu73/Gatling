@@ -63,11 +63,45 @@
   <build>
     <testSourceDirectory>src/test/scala</testSourceDirectory>
     <plugins>
+
+      <plugin>
+        <!--start * so that maven can create a jar -->
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.2.0</version>
+      </plugin>  <!--end  * so that maven can create a jar -->
+
+      <plugin>
+        <!--start * this plugin is so maven can complier your scala code -->
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>scala-maven-plugin</artifactId>
+        <version>4.4.0</version>
+        <executions>
+          <execution>
+            <goals>
+              
+            </goals>
+          </execution>
+        </executions>
+
+      </plugin>
+
+      <!-- start so Maven can build a package fro Frontline -->
+      <plugin>
+        <groupId>io.gatling.frontline</groupId>
+        <artifactId>frontline-maven-plugin</artifactId>
+        <version>1.2.3</version>
+      </plugin>
+      <!-- End so Maven can build a package fro Frontline -->
+
+
+
+
       <plugin>
         <groupId>io.gatling</groupId>
         <artifactId>gatling-maven-plugin</artifactId>
         <version>${gatling-maven-plugin.version}</version>
       </plugin>
+
     </plugins>
   </build>
 </project>
