@@ -51,7 +51,7 @@ class test5 extends Simulation {
 
 
 
-  val httpConf = http.baseUrl(url = "https://qa3.doterra.com/")
+  val httpConf = http.baseUrl(url = "https://prf.doterra.com/")
     .inferHtmlResources(BlackList(), WhiteList())
     .header(name = "User_Agent", value = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36  Chrome/88.0.4324.190 Safari/537.36")
     .header(name = "content-type", value = "application/json; text/plain; charset=UTF-8")
